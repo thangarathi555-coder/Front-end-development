@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    background: white;
+    width: 350px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+input[type="submit"], a.button {
+    background-color: #4e73df;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, a.button:hover {
+    background-color: #2e59d9;
+}
