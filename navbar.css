@@ -1,0 +1,36 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    color: white;
+    margin-top: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #343a40;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+a:hover {
+    background-color: #f6c23e;
+    color: black;
+    transform: scale(1.1);
+}
