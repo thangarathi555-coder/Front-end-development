@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { 
+    text-align:center; 
+    font-family:serif;
+}
+button{
+    background: green;
+    color: white;
+}
+li{ 
+    margin:10px;
+}
+</style>
+</head>
+<body>
+<h3>To-Do List</h3>
+
+<input id="text">
+<button onclick="add()">Add</button>
+
+<ol id="l"></ol>
+
+<script>
+function add(){
+  let v = text.value;
+  if(!v) return;
+
+  let li = document.createElement("li");
+
+  li.innerHTML = v + 
+  ' <button onclick="this.parentElement.remove()">X</button>';
+
+  l.appendChild(li);
+
+  text.value = ""; // ✅ fixed
+}
+</script>
+
+</body>
+</html>
