@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event Handling Demo</title>
+
+<style>
+body{
+  font-family: Arial;
+  text-align: center;
+  background-color: #f4f4f4;
+  transition: 0.3s;
+}
+
+.container{
+  margin-top: 40px;
+}
+
+button, input, select{
+  padding: 10px;
+  margin: 8px;
+  font-size: 15px;
+}
+
+#msg{
+  font-size: 20px;
+  color: blue;
+  margin-top: 20px;
+}
+
+.box{
+  width: 200px;
+  height: 80px;
+  border: 2px dashed gray;
+  margin: 20px auto;
+  line-height: 80px;
+}
+</style>
+
+<script>
+
+// Page load event
+function pageLoad(){
+  alert("Page Loaded Successfully!");
+}
+
+// Click event
+function clickEvent(){
+  document.getElementById("msg").innerHTML = "👉 Button Clicked!";
+}
+
+// Double click event
+function doubleClick(){
+  document.getElementById("msg").innerHTML = "🔥 Double Clicked!";
+}
+
+// Mouse events
+function mouseOver(){
+  document.body.style.backgroundColor = "#ffeaa7";
+}
+
+function mouseOut(){
+  document.body.style.backgroundColor = "#f4f4f4";
+}
+
+// Keyboard events
+function keyDown(){
+  document.getElementById("msg").innerHTML = "⌨️ Key Pressed!";
+}
+
+// Input event
+function inputEvent(){
+  let val = document.getElementById("name").value;
+  document.getElementById("msg").innerHTML = "Typing: " + val;
+}
+
+// Focus event
+function focusEvent(){
+  document.getElementById("msg").innerHTML = "📌 Input Focused";
+}
+
+// Blur event
+function blurEvent(){
+  document.getElementById("msg").innerHTML = "📌 Input Left";
+}
+
+// Change event
+function changeEvent(){
+  document.getElementById("msg").innerHTML = "🔄 Option Changed";
+}
+
+// Mouse move event
+function mouseMove(e){
+  document.getElementById("box").innerHTML =
+  "X: " + e.clientX + " Y: " + e.clientY;
+}
+
+// Reset
+function resetAll(){
+  document.getElementById("msg").innerHTML = "";
+  document.body.style.backgroundColor = "#f4f4f4";
+}
+
+</script>
+
+</head>
+
+<body onload="pageLoad()">
+
+<div class="container">
+
+<h2>🔥 JavaScript Event Handling Demo</h2>
+
+<button onclick="clickEvent()">Click Me</button>
+
+<button ondblclick="doubleClick()">Double Click</button>
+
+<button onmouseover="mouseOver()" onmouseout="mouseOut()">
+Hover Me
+</button>
+
+<button onclick="resetAll()">Reset</button>
+
+<br><br>
+
+<input id="name"
+type="text"
+placeholder="Type here"
+onkeydown="keyDown()"
+oninput="inputEvent()"
+onfocus="focusEvent()"
+onblur="blurEvent()">
+
+<br><br>
+
+<select onchange="changeEvent()">
+<option>Select Course</option>
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+</select>
+
+<div id="box" class="box" onmousemove="mouseMove(event)">
+Move Mouse Here
+</div>
+
+<p id="msg"></p>
+
+</div>
+
+</body>
+</html>
