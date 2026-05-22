@@ -12,7 +12,7 @@ https://thangarathi555-coder.github.io/Front-end-development/login.html
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ceafce6c-ce8e-4318-88b8-e62b896b68b5" />
 https://thangarathi555-coder.github.io/Front-end-development/lab.9.html
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/de9041c8-d450-4aac-9806-ff027dcdb3bd" />
-https://thangarathi555-coder.github.io/Front-end-development/client server.html
+https://thangarathi555-coder.github.io/Front-end-development/clientserver.html
 <img width="988" height="891" alt="Screenshot 2026-03-26 112051" src="https://github.com/user-attachments/assets/626631d3-c834-4812-8136-c2e2d3992cb5" />
 https://thangarathi555-coder.github.io/Front-end-development/calculator.html
 <img width="1105" height="737" alt="image" src="https://github.com/user-attachments/assets/da847322-0de3-4614-af78-d4a861ebe0a5" />
@@ -22,5 +22,5 @@ https://thangarathi555-coder.github.io/Front-end-development/lab.13.html
 <img width="896" height="523" alt="image" src="https://github.com/user-attachments/assets/51095e9d-6cdd-465b-979a-a33362bc2335" />
 https://thangarathi555-coder.github.io/Front-end-development/GPay.html
 <img width="734" height="905" alt="Screenshot 2026-05-22 190821" src="https://github.com/user-attachments/assets/d084ff77-5204-4d4b-adcf-b175abe5dfce" />
-https://thangarathi555-coder.github.io/Front-end-development/event handling.html
+https://thangarathi555-coder.github.io/Front-end-development/eventhandling.html
 <img width="1336" height="736" alt="image" src="https://github.com/user-attachments/assets/b5db0d50-5d34-4d53-8981-2ae908878b5b" />
