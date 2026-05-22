@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPay Clone 2026</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#f1f3f4;
+}
+
+/* Header */
+.header{
+  background:#ffffff;
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo{
+  color:#1a73e8;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.profile{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background:#1a73e8;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Balance card */
+.balance-card{
+  margin:15px;
+  background:linear-gradient(135deg,#1a73e8,#4285f4);
+  color:white;
+  padding:20px;
+  border-radius:20px;
+}
+
+.balance{
+  font-size:30px;
+  margin-top:10px;
+  font-weight:bold;
+}
+
+/* Buttons */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+  padding:15px;
+}
+
+.box{
+  background:white;
+  padding:20px;
+  text-align:center;
+  border-radius:15px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+  cursor:pointer;
+}
+
+/* Send money */
+.send{
+  background:white;
+  margin:15px;
+  padding:20px;
+  border-radius:15px;
+}
+
+input{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  background:#1a73e8;
+  color:white;
+  border:none;
+  border-radius:10px;
+  font-size:16px;
+}
+
+#msg{
+  margin-top:10px;
+  color:green;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">GPay</div>
+  <div class="profile">T</div>
+</div>
+
+<div class="balance-card">
+  <h3>Available Balance</h3>
+  <div class="balance">₹25,000</div>
+</div>
+
+<div class="grid">
+  <div class="box">💸 Pay</div>
+  <div class="box">📥 Receive</div>
+  <div class="box">📷 Scan QR</div>
+  <div class="box">📜 History</div>
+</div>
+
+<div class="send">
+  <h3>Send Money</h3>
+
+  <input type="text" id="name" placeholder="Enter Name">
+  <input type="number" id="amount" placeholder="Enter Amount">
+
+  <button onclick="sendMoney()">Send Money</button>
+
+  <p id="msg"></p>
+</div>
+
+<script>
+function sendMoney(){
+  let name=document.getElementById("name").value;
+  let amount=document.getElementById("amount").value;
+
+  if(name && amount){
+    document.getElementById("msg").innerHTML=
+    "✅ ₹"+amount+" sent to "+name;
+  } else{
+    document.getElementById("msg").innerHTML=
+    "❌ Fill all fields";
+  }
+}
+</script>
+
+</body>
+</html>
