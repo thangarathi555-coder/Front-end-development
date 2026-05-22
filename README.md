@@ -13,7 +13,8 @@ https://thangarathi555-coder.github.io/Front-end-development/login.html
 https://thangarathi555-coder.github.io/Front-end-development/lab.9.html
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/de9041c8-d450-4aac-9806-ff027dcdb3bd" />
 https://thangarathi555-coder.github.io/Front-end-development/clientserver.html
-<img width="988" height="891" alt="Screenshot 2026-03-26 112051" src="https://github.com/user-attachments/assets/626631d3-c834-4812-8136-c2e2d3992cb5" />
+<img width="988" height="891" alt="image" src="https://github.com/user-attachments/assets/8ca73545-eebf-41f2-b83e-cd815b7639ab" />
+
 https://thangarathi555-coder.github.io/Front-end-development/calculator.html
 <img width="1105" height="737" alt="image" src="https://github.com/user-attachments/assets/da847322-0de3-4614-af78-d4a861ebe0a5" />
 https://thangarathi555-coder.github.io/Front-end-development/lab.12.html
