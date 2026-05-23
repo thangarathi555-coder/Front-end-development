@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive Webpage</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+/* Navbar */
+nav{
+  background:#333;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+}
+
+/* Hero */
+.hero{
+  background:linear-gradient(to right,#4facfe,#00f2fe);
+  color:white;
+  text-align:center;
+  padding:60px 20px;
+}
+
+.hero h1{
+  font-size:40px;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+/* Cards */
+.container{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin:20px;
+}
+
+.card{
+  width:200px;
+  background:white;
+  margin:10px;
+  padding:15px;
+  text-align:center;
+  box-shadow:0 0 10px gray;
+  border-radius:10px;
+}
+
+/* Footer */
+footer{
+  background:#333;
+  color:white;
+  text-align:center;
+  padding:10px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+  nav{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .hero h1{
+    font-size:25px;
+  }
+
+  .container{
+    flex-direction:column;
+    align-items:center;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+  <h3>My Website</h3>
+  <p>Home | About | Contact</p>
+</nav>
+
+<section class="hero">
+  <h1>Responsive Webpage</h1>
+  <p>Simple HTML CSS Responsive Design</p>
+
+  <button onclick="showMsg()">Click Me</button>
+</section>
+
+<div class="container">
+
+  <div class="card">
+    <h3>HTML</h3>
+    <p>Structure</p>
+  </div>
+
+  <div class="card">
+    <h3>CSS</h3>
+    <p>Design</p>
+  </div>
+
+  <div class="card">
+    <h3>JavaScript</h3>
+    <p>Interaction</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Responsive Website
+</footer>
+
+<script>
+function showMsg(){
+  alert("Button Clicked!");
+}
+</script>
+
+</body>
+</html>
