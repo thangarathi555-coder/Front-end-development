@@ -26,7 +26,7 @@ https://thangarathi555-coder.github.io/Front-end-development/event.html
 <img width="1336" height="736" alt="Screenshot 2026-05-22 211646" src="https://github.com/user-attachments/assets/74a4065e-c63d-4d13-aa1c-766129477981" />
 https://thangarathi555-coder.github.io/Front-end-development/responsivepage.html
 <img width="1898" height="892" alt="image" src="https://github.com/user-attachments/assets/163f1ea1-bd24-47a2-b53f-d6444a98d19f" />
-https://thangarathi555-coder.github.io/Front-end-development/clientserver.html
+https://thangarathi555-coder.github.io/Front-end-development/imageslider.html
 <img width="980" height="618" alt="image" src="https://github.com/user-attachments/assets/0720aafa-42f6-4c35-b8a3-d7be6c01e80a" />
 https://thangarathi555-coder.github.io/Front-end-development/Bootstrap.html
 <img width="1846" height="709" alt="image" src="https://github.com/user-attachments/assets/4cfd1869-28a0-431f-b5b0-84dea76effc1" />
