@@ -36,4 +36,5 @@ https://thangarathi555-coder.github.io/Front-end-development/lab.19.html
 <img width="1243" height="904" alt="image" src="https://github.com/user-attachments/assets/47182959-fbfe-47c4-874c-991979bbdb0f" />
 https://thangarathi555-coder.github.io/Front-end-development/lab.20.html
 <img width="1251" height="915" alt="image" src="https://github.com/user-attachments/assets/b4377804-9261-44b9-bac2-9be547861b0d" />
-
+https://thangarathi555-coder.github.io/Front-end-development/coffee.html
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/018e5247-f255-4343-a36d-a4a3bd353e51" />
