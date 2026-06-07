@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noir Brew ☕</title>
+
+<style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    color:white;
+    background:black;
+    overflow-x:hidden;
+}
+
+/* BACKGROUND VIDEO STYLE IMAGE */
+.hero{
+    height:100vh;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover no-repeat;
+}
+
+/* DARK OVERLAY */
+.hero::before{
+    content:"";
+    position:absolute;
+    top:0;left:0;
+    width:100%;
+    height:100%;
+    background:radial-gradient(circle,rgba(0,0,0,0.4),black);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+}
+
+.hero h1{
+    font-size:70px;
+    letter-spacing:4px;
+    color:#ffcc70;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+    from{ text-shadow:0 0 10px #ffcc70; }
+    to{ text-shadow:0 0 25px #ff9900; }
+}
+
+.hero p{
+    max-width:600px;
+    color:#ddd;
+    margin:auto;
+    font-size:18px;
+}
+
+.btn{
+    margin-top:20px;
+    padding:14px 30px;
+    border:none;
+    border-radius:40px;
+    background:linear-gradient(45deg,#ffb347,#ffcc70);
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+}
+
+/* FLOATING COFFEE BEANS EFFECT */
+.bean{
+    position:absolute;
+    width:10px;
+    height:10px;
+    background:#c69c6d;
+    border-radius:50%;
+    animation: float 6s infinite;
+    opacity:0.6;
+}
+
+@keyframes float{
+    0%{transform:translateY(100vh);}
+    100%{transform:translateY(-10vh);}
+}
+
+/* MENU SECTION */
+.menu{
+    padding:60px;
+    background:#0d0d0d;
+    text-align:center;
+}
+
+.menu h2{
+    color:#ffcc70;
+    font-size:40px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    margin-top:40px;
+}
+
+.card{
+    width:250px;
+    background:#1a1a1a;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.4s;
+    box-shadow:0 10px 20px rgba(0,0,0,0.6);
+}
+
+.card:hover{
+    transform:scale(1.05) rotate(-1deg);
+    box-shadow:0 0 25px #ffcc70;
+}
+
+.card img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+}
+
+.card p{
+    color:#ffcc70;
+}
+
+/* ABOUT */
+.about{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    padding:60px;
+    background:#111;
+}
+
+.about img{
+    width:350px;
+    border-radius:20px;
+    filter:brightness(0.8);
+}
+
+.about p{
+    max-width:500px;
+    color:#ccc;
+    line-height:1.6;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:black;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<!-- floating beans -->
+<div class="bean" style="left:10%"></div>
+<div class="bean" style="left:30%"></div>
+<div class="bean" style="left:50%"></div>
+<div class="bean" style="left:70%"></div>
+<div class="bean" style="left:90%"></div>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>NOIR BREW ☕</h1>
+        <p>A dark coffee experience crafted for true coffee lovers. Every sip feels like a story.</p>
+        <button class="btn">Enter Café</button>
+    </div>
+</section>
+
+<section class="menu">
+    <h2>Signature Drops</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+            <h3>Midnight Espresso</h3>
+            <p>₹140</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+            <h3>Dark Velvet Latte</h3>
+            <p>₹180</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c">
+            <h3>Smoke Mocha</h3>
+            <p>₹200</p>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814">
+    <div>
+        <h2 style="color:#ffcc70;">Our Story</h2>
+        <p>
+            Noir Brew is not just coffee — it's emotion.
+            Crafted in darkness, served with warmth, designed for people who love deep coffee culture.
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Noir Brew | Crafted in Darkness ☕
+</footer>
+
+</body>
+</html>
