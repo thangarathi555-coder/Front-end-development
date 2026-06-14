@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC College</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#003366;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#00509e;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        .hero{
+            height:400px;
+            background:linear-gradient(rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)),
+            url('https://images.unsplash.com/photo-1562774053-701939374585');
+            background-size:cover;
+            background-position:center;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            text-align:center;
+        }
+
+        .hero h1{
+            font-size:50px;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+            padding:40px 0;
+        }
+
+        .cards{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+
+        .card{
+            background:white;
+            width:300px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        .card h3{
+            color:#003366;
+            margin-bottom:10px;
+        }
+
+        footer{
+            background:#003366;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+
+        @media(max-width:768px){
+            .hero h1{
+                font-size:35px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ABC College</h1>
+    <p>Empowering Students for a Better Future</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Courses</a>
+    <a href="#">Admissions</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <div>
+        <h1>Welcome to ABC College</h1>
+        <p>Quality Education | Skilled Faculty | Bright Future</p>
+    </div>
+</section>
+
+<div class="container">
+
+    <h2 style="text-align:center; margin-bottom:30px;">
+        Our Highlights
+    </h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Experienced Faculty</h3>
+            <p>Highly qualified professors and industry experts.</p>
+        </div>
+
+        <div class="card">
+            <h3>Modern Campus</h3>
+            <p>Smart classrooms, labs and digital facilities.</p>
+        </div>
+
+        <div class="card">
+            <h3>Placement Support</h3>
+            <p>Training and placement opportunities for students.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 ABC College. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
